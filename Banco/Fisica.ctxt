@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Fisica
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Fisica\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n\ r\ e\ s
+comment1.target=Fisica(java.lang.String,\ java.lang.String,\ int,\ boolean)
+numComments=2
