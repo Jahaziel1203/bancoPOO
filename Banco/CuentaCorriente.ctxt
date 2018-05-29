@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CuentaCorriente
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CuentaCorriente\ here.\r\n\ \r\n\ @author\ [Gonzalez\ Velasco\ Jesus\ &\ Reyes\ Hernandez\ Erik\ Jahaziel]\ \r\n\ @version\ [28\ de\ mayo\ de\ 201]\r\n
+comment1.params=saldo
+comment1.target=CuentaCorriente(float)
+comment2.params=cantidad
+comment2.target=void\ depositar(float)
+comment3.params=cantidad
+comment3.target=void\ retirar(float)
+numComments=4

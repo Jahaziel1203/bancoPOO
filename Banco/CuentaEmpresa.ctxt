@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CuentaEmpresa
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CuentaEmpresa\ here.\r\n\ \r\n\ @author\ [Gonzalez\ Velasco\ Jesus\ &\ Reyes\ Hernandez\ Erik\ Jahaziel]\ \r\n\ @version\ [28\ de\ mayo\ de\ 201]\r\n
+comment1.params=saldo
+comment1.target=CuentaEmpresa(float)
+comment2.params=saldo
+comment2.target=java.lang.String\ condicion(float)
+comment3.params=cantidad
+comment3.target=void\ depositar(float)
+comment4.params=cantidad
+comment4.target=void\ retirar(float)
+numComments=5

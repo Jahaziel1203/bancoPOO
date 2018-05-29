@@ -1,4 +1,12 @@
 #BlueJ class context
 comment0.target=Cuenta
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cuenta\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment0.text=\r\n\ Es\ la\ clase\ madre\ dentro\ de\ la\ rama\ de\ las\ clases\ de\ tipo\ Cuenta\r\n\ \r\n\ @author\ [Gonzalez\ Velasco\ Jesus\ &\ Reyes\ Hernandez\ Erik\ Jahaziel]\ \r\n\ @version\ [28\ de\ mayo\ de\ 201]\r\n
+comment1.params=saldo
+comment1.target=Cuenta(float)
+comment2.params=cantidad
+comment2.target=void\ depositar(float)
+comment3.params=cantidad
+comment3.target=void\ retirar(float)
+comment4.params=
+comment4.target=float\ consultarSaldo()
+numComments=5
