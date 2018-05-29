@@ -9,9 +9,10 @@ public class Persona
 {
     protected String nombre,rfc;
     protected int edad;
-    static boolean stsDeudor;
+    static boolean stsDeudor;//donde true=deudor
     protected Cuenta [] cta;
-    public Persona(String n,String r,int e,boolean s)
+    Prestamo p;
+    public Persona(String n,String r, int e, boolean s)
     {
         nombre=n;
         rfc=r;

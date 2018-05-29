@@ -10,14 +10,15 @@ public class CuentaEmpresa extends Cuenta{
                           //de una cuenta empresa
 
     //Constructor de la clase CuentaEmpresa
-    protected CuentaEmpresa(float saldo){
-        super(saldo);
+    protected CuentaEmpresa(float saldo,int idPropietario){
+        super(saldo, idPropietario);
+        condicion();
     }
 
     //Para tener una cuenta de este tipo es necesario tener un saldo mayor a 200,000 y 
     //menor a 100,000,000 por lo que este metodo verifica que el saldo este entre el
     //rango establecido
-    protected String condicion(float saldo){
+    protected String condicion(){
         String mensaje ="";
         if((saldo >= 200000)&&(saldo <= 100000000)){
             flag = true; //Si se cumple la condicion de CuentaEmpresa la bandera pasa a true
@@ -30,7 +31,7 @@ public class CuentaEmpresa extends Cuenta{
     }
     //Metodo depositar que como parametro requiere de una cantidad depositada
     protected void depositar(float cantidad){
-        condicion(saldo);
+        condicion();
         if(flag = false){ //Si es una cuentaEmprese realiza la operacion
             saldo = saldo + cantidad;
         }else{
@@ -39,7 +40,7 @@ public class CuentaEmpresa extends Cuenta{
     }
     //Metod retirar que recibe como parametro una cantodad a retirar
     protected void retirar(float cantidad){
-        condicion(saldo);
+        condicion();
         if(((saldo-cantidad) >=0) && (flag = true)){ //El if verifica que el saldo sea positivo y que sea una cuenta empresa
             saldo= saldo-cantidad;
             System.out.println("Su retiro asciende a: $ " + cantidad);

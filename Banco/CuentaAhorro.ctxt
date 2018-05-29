@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=CuentaAhorro
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ CuentaAhorro\ here.\r\n\ \r\n\ @author\ [Gonzalez\ Velasco\ Jesus\ &\ Reyes\ Hernandez\ Erik\ Jahaziel]\ \r\n\ @version\ [28\ de\ mayo\ de\ 201]\r\n
-comment1.params=saldo
-comment1.target=CuentaAhorro(float)
-comment2.params=saldo
-comment2.target=void\ saldoConRentabilidad(float)
+comment1.params=saldo\ idPropietario
+comment1.target=CuentaAhorro(float,\ int)
+comment2.params=
+comment2.target=void\ saldoConRentabilidad()
 numComments=3

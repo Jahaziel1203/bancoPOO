@@ -9,8 +9,8 @@ public class CuentaNomina extends Cuenta{
     private static float saldo1 = 0; //Variable que llevara la cuenta de los depositos realizados a la cuenta
 
     //Constructor de la clase CuentaNomina
-    protected CuentaNomina(float saldo){
-        super(saldo);
+    protected CuentaNomina(float saldo, int idPropietario){
+        super(saldo, idPropietario);
     }
 
     //Metodo depositar 

@@ -8,11 +8,13 @@
 public abstract class Cuenta{
     protected int id;
     protected static float saldo;
+    protected int idPropietario;
     //private float cantidad;
     
     //Constructor de la clase cuenta
-    public Cuenta(float saldo){
+    public Cuenta(float saldo,int idPropietario){
         this.saldo = saldo;
+        this.idPropietario = idPropietario;
     }
     //Método para realizar un deposito a la cuenta
     protected void depositar(float cantidad){
