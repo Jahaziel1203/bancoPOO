@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=void\ cancelarCta()
 comment4.params=
 comment4.target=boolean\ setDeudor()
-numComments=5
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+numComments=6
