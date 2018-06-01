@@ -1,21 +1,18 @@
-
 /**
- * Write a description of class CuentaNomina here.
- * 
  * @author [Gonzalez Velasco Jesus & Reyes Hernandez Erik Jahaziel] 
  * @version [28 de mayo de 201]
  */
 public class CuentaNomina extends Cuenta{
-    private static float saldo1 = 0; //Variable que llevara la cuenta de los depositos realizados a la cuenta
+    private static double saldo1 = 0; //Variable que llevara la cuenta de los depositos realizados a la cuenta
 
     //Constructor de la clase CuentaNomina
-    protected CuentaNomina(float saldo, int idPropietario){
-        super(saldo, idPropietario);
+    protected CuentaNomina(int id, float saldo, int idPropietario){
+        super(id, saldo, idPropietario);
     }
 
     //Metodo depositar 
     protected void depositar(float cantidad){
-        saldo1 += cantidad;
+        //saldo1 += cantidad;
         saldo = saldo + cantidad;
         regalo();
     }

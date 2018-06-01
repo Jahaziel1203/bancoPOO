@@ -1,12 +1,11 @@
 
-/**
- * Write a description of class Moral here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+/** 
+ * @author [Gonzalez Velasco Jesus & Reyes Hernandez Erik Jahaziel] 
+ * @version [28 de mayo de 2018]
  */
 public class Moral extends Persona
 {
-    public Moral(String n,String r,int e,boolean s)
-    {super(n,r,e,s);}
+    /**Constructor de la subclase Moral */
+    public Moral(int iden, String n,boolean s)
+    {super(iden, n, s);}
 }

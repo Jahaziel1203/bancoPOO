@@ -19,18 +19,7 @@ public class Prestamo
         interes=i;
         totPagar=t;
     }
-    public boolean prestar(boolean s)
-    {
-        if(s==false)//verificar que la persona no tenga adeudos
-        {
-            s=true;
-        }
-        else
-        {
-            System.out.println("Eres deudor, paga antes para pedir otro prestamo");
-        }
-        return s;
-    }
+    
     public String[] amortizacion(){
         double r;
         double capital;

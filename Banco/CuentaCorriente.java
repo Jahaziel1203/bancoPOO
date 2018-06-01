@@ -7,8 +7,8 @@
 public class CuentaCorriente extends Cuenta{
     private final float comision = 17.80f;
     //Constructor de la clase CuentaCorriente
-    protected CuentaCorriente(float saldo, int idPropietario){
-        super(saldo, idPropietario);
+    protected CuentaCorriente(int id, float saldo, int idPropietario){
+        super(id, saldo, idPropietario);
     }
     //Método depositar, se reliza un override ya que al ser cuenta corriente genera
     //una comision por cada movimiento que se realiza en la cuenta

@@ -1,11 +1,10 @@
 
 /**
- * Write a description of class Fisica here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author [Gonzalez Velasco Jesus & Reyes Hernandez Erik Jahaziel] 
+ * @version [28 de mayo de 2018]
  */
 public class Fisica extends Persona
 {
-    public Fisica(String n,String r,int e,boolean s){super(n,r,e,s);}
+    /**Constructor de la subclase Fisica */
+    public Fisica(int iden, String n,boolean s){super(iden, n, s);}
 }
