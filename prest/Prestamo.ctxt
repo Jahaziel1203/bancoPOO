@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Prestamo
+comment1.params=m\ p\ i\ t\ s
+comment1.target=Prestamo(float,\ int,\ float,\ float,\ boolean)
+comment2.params=
+comment2.target=java.lang.String[]\ amortizacion()
+comment3.params=
+comment3.target=void\ generaAm()
+comment4.params=fecha\ fechaHoy\ p
+comment4.target=void\ generaPagare(java.lang.String,\ java.lang.String,\ Persona)
+numComments=5

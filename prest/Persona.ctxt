@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Persona\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=iden\ n\ s
+comment1.target=Persona(int,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=void\ contratarCta()
+comment3.params=
+comment3.target=void\ cancelarCta()
+comment4.params=
+comment4.target=boolean\ setDeudor()
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+comment6.params=s
+comment6.target=boolean\ solicitarPrestamo(boolean)
+numComments=7
